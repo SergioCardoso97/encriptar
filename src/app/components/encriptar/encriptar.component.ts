@@ -15,6 +15,7 @@ export class EncriptarComponent implements OnInit {
 
   constructor(
     private encriptarService: EncriptarService
+    
   ) { }
 
   ngOnInit(): void {
