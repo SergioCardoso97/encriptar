@@ -13,6 +13,7 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import {
   Service, Task, Dependency, Resource, ResourceAssignment,
 } from './app.service';
+import { WordComponent } from './components/word/word.component';
 
 if (!/localhost/.test(document.location.host)) {
   enableProdMode();
@@ -21,7 +22,8 @@ if (!/localhost/.test(document.location.host)) {
   declarations: [
     AppComponent,
     EncriptarComponent,
-    GanttComponent
+    GanttComponent,
+    WordComponent
   ],
   imports: [
     BrowserModule,
