@@ -1,3 +1,5 @@
+Este repositorio contiene un ejemplo bueno de como utilizar la biblioteca CryptoJS en Angular para encriptar datos, otro buen ejemplo de como crear un diagrama de gantt en angular por medio de la biblioteca DevExtreme y por ultimo el como crear un documento basico en word utilizando Angular.
+
 # Encriptar
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.2.
