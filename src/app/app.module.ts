@@ -14,6 +14,7 @@ import {
   Service, Task, Dependency, Resource, ResourceAssignment,
 } from './app.service';
 import { WordComponent } from './components/word/word.component';
+import { DiagramaComponent } from './components/diagrama/diagrama.component';
 
 if (!/localhost/.test(document.location.host)) {
   enableProdMode();
@@ -23,7 +24,8 @@ if (!/localhost/.test(document.location.host)) {
     AppComponent,
     EncriptarComponent,
     GanttComponent,
-    WordComponent
+    WordComponent,
+    DiagramaComponent
   ],
   imports: [
     BrowserModule,
