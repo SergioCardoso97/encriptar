@@ -8,7 +8,7 @@ export class EncriptarService {
 
   constructor() { }
   
-private readonly SALT = CryptoJS.enc.Base64.parse("SXZhbiBNZWR2ZWRldg==");
+private readonly SALT = CryptoJS.enc.Base64.parse("U2lhcmEtMjAxM19wbVM=");
 private readonly ITERATIONS = 1000; 
 
 Encrypt(origin: string, key: string): string{
