@@ -16,6 +16,7 @@ import {
 } from './app.service';
 import { WordComponent } from './components/word/word.component';
 import { VisorComponent } from './components/visor/visor.component';
+import { DiagramaComponent } from './components/diagrama/diagrama.component';
 
 if (!/localhost/.test(document.location.host)) {
   enableProdMode();
@@ -27,6 +28,7 @@ if (!/localhost/.test(document.location.host)) {
     GanttComponent,
     WordComponent,
     VisorComponent,
+    DiagramaComponent
   ],
   imports: [
     BrowserModule,
